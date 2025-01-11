@@ -21,5 +21,9 @@ urlpatterns = [
     path("actors/", ActorList.as_view(), name="actor-list"),
     path("actors/<int:pk>/", ActorDetail.as_view(), name="actor-detail"),
     path("cinema_halls/", CinemaHallList.as_view(), name="actor-list"),
-    path("cinema_halls/<int:pk>/", CinemaHallDetail.as_view(), name="actor-detail"),
+    path(
+        "cinema_halls/<int:pk>/",
+        CinemaHallDetail.as_view(),
+        name="actor-detail"
+    ),
 ] + router.urls
