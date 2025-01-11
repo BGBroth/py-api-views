@@ -12,6 +12,7 @@ from cinema.serializers import (
     CinemaHallSerializer,
 )
 
+
 class GenreList(APIView):
     def get(self, request):
         genre = Genre.objects.all()

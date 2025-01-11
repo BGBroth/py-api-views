@@ -7,8 +7,7 @@ router = routers.DefaultRouter()
 router.register("buses", MovieViewSet)
 
 urlpatterns = [
-   path("", include(router.urls))
+    path("", include(router.urls)),
 ]
-
 
 app_name = "cinema"

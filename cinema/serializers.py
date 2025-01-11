@@ -23,6 +23,7 @@ class MovieSerializer(serializers.Serializer):
 
         return instance
 
+
 class GenreSerializer(serializers.ModelSerializer):
     class Meta:
         model = Genre
