@@ -1,5 +1,8 @@
 from rest_framework import status, viewsets
-from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.generics import (
+    ListCreateAPIView,
+    RetrieveUpdateDestroyAPIView
+)
 from rest_framework.mixins import (
     ListModelMixin,
     CreateModelMixin,
